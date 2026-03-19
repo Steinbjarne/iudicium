@@ -1,0 +1,14 @@
+﻿spring:
+  application:
+    name: research-backend
+  data:
+    mongodb:
+      host: ${MONGO_HOST:localhost}
+      port: ${MONGO_PORT:27017}
+      database: ${MONGO_DATABASE:research}
+      username: ${MONGO_USERNAME:admin}
+      password: ${MONGO_PASSWORD:secret}
+      authentication-database: ${MONGO_AUTH_DATABASE:admin}
+
+server:
+  port: ${SERVER_PORT:8080}

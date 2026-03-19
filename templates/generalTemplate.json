@@ -1,0 +1,112 @@
+﻿{
+  "displayName": "",
+  "snapshot": {
+    "canonicalId": "domain/type/id",
+    "domain": "living-organisms",
+    "type": "animal",
+    "status": "unknown",
+    "timeScope": "unknown",
+    "confidence": "medium"
+  },
+  "identity": {
+    "primaryName": "",
+    "alternativeNames": [
+      {
+        "name": "",
+        "langOrLocale": "",
+        "note": ""
+      }
+    ],
+    "shortDescription": "",
+    "tags": []
+  },
+  "classification": {
+    "classificationSystem": "other",
+    "taxonNode": null,
+    "hierarchyPath": [
+      {
+        "level": 1,
+        "value": ""
+      }
+    ],
+    "externalIdentifiers": [
+      {
+        "scheme": "",
+        "value": "",
+        "url": null
+      }
+    ]
+  },
+  "timeAndContext": {
+    "datePeriodEpoch": "",
+    "timelineNotes": "",
+    "relatedEras": []
+  },
+  "locationAndDistribution": {
+    "primaryLocationOrOrigin": "",
+    "spatialExtent": "local",
+    "coordinatesOrGisRefs": null,
+    "distributionOrOccurrence": ""
+  },
+  "description": {
+    "whatItIs": "",
+    "keyCharacteristics": [],
+    "similarOrConfusableWith": []
+  },
+  "properties": {
+    "physical": null,
+    "materialOrComposition": null,
+    "behaviorOrFunction": null,
+    "environmentOrConditions": null,
+    "safetyOrHazards": null,
+    "other": null
+  },
+  "evidenceAndMethods": {
+    "evidenceTypes": [],
+    "howKnownOrVerified": "",
+    "uncertaintiesOrLimitations": ""
+  },
+  "media": {
+    "localMediaPath": "media/",
+    "externalMediaLinksPath": "media/external-links.md",
+    "licensingOrAttributionNotes": ""
+  },
+  "data": {
+    "datasetsPath": "data/datasets/",
+    "measurementsPath": "data/measurements/",
+    "derivedOutputsPath": "data/derived/"
+  },
+  "modules": {
+    "enabled": [],
+    "paths": [
+      "modules/biology/",
+      "modules/ecology/",
+      "modules/geology/",
+      "modules/chemistry/",
+      "modules/archaeology/",
+      "modules/astronomy/",
+      "modules/engineering/",
+      "modules/history/",
+      "modules/other/"
+    ],
+    "typeSpecific": {}
+  },
+  "relations": {
+    "parentOrPartOf": [],
+    "containsOrIncludes": [],
+    "usedByOrUses": [],
+    "relatedObjects": [],
+    "comparedTo": []
+  },
+  "scientificCourt": {
+    "currentClassification": null,
+    "reasoningSummary": "",
+    "testabilityOrFalsification": ""
+  },
+  "openQuestions": [],
+  "references": {
+    "primarySources": [],
+    "secondarySources": [],
+    "notes": ""
+  }
+}
