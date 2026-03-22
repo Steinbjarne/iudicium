@@ -9,6 +9,12 @@
       username: ${MONGO_USERNAME:admin}
       password: ${MONGO_PASSWORD:secret}
       authentication-database: ${MONGO_AUTH_DATABASE:admin}
-
+  mvc:
+    problemdetails:
+      enabled: true
 server:
   port: ${SERVER_PORT:8080}
+  error:
+    include-message: never
+    include-binding-errors: never
+    include-stacktrace: never
