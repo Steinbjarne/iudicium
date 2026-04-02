@@ -75,6 +75,8 @@ Eksempler:
   ./run.sh start
   ./run.sh start debug
   ./run.sh start prod
+  ./run.sh clean
+  ./run.sh clean all
 EOF
   exit 1
 }
@@ -97,10 +99,10 @@ case "$cmd" in
     target="$(resolve_target "${sub:-debug}")"
     compose pull
     compose_with_target "$target" build
-     ;;
+    ;;
   clean)
     if [ "${sub:-}" = "all" ]; then
-      compose down -v --remove-orphans
+      compose down --remove-orphans --rmi all
     elif [ -z "${sub:-}" ]; then
       compose down --remove-orphans
     else
