@@ -1,4 +1,4 @@
-﻿FROM maven:3.9.14-eclipse-temurin-17 AS build
+﻿FROM maven:3.9.14-eclipse-temurin-21 AS build
 
 WORKDIR /workspace
 
@@ -14,7 +14,7 @@ RUN mvn -pl backend -am clean package -DskipTests && \
     echo "=== target contents ===" && \
     ls -lah /workspace/backend/target
 
-FROM gcr.io/distroless/java17-debian12:nonroot AS prod
+FROM gcr.io/distroless/java21-debian13:nonroot AS prod
 
 WORKDIR /app
 COPY --from=build /workspace/backend/target/*.jar /app/app.jar
@@ -22,7 +22,7 @@ COPY --from=build /workspace/backend/target/*.jar /app/app.jar
 EXPOSE 8080
 CMD ["/app/app.jar"]
 
-FROM eclipse-temurin:17-jre-alpine AS debug
+FROM eclipse-temurin:21-jre-alpine AS debug
 
 WORKDIR /app
 COPY --from=build /workspace/backend/target/*.jar /app/app.jar

@@ -12,3 +12,11 @@ server:
     include-message: never
     include-binding-errors: never
     include-stacktrace: never
+springdoc:
+  swagger-ui:
+    use-root-path: true
+    operations-sorter: method
+    tags-sorter: alpha
+    try-it-out-enabled: true
+  api-docs:
+    path: /v3/api-docs
