@@ -1,20 +1,78 @@
-﻿Dette prosjektet er Research / Iudicium.
+﻿# Template relationships with UUIDs
 
-Arbeid pragmatisk og presist.
-Skill alltid mellom:
-1. det som faktisk finnes i prosjektet
-2. det du foreslår
+## What actually exists in the project
 
-Anta ikke frontend når vi jobber i backend-sporet.
-Les faktisk struktur og kode før du foreslår endringer.
-Når noe er uklart, si det rett ut.
+The following is already established in **Research / Iudicium**:
 
-Backend bruker Spring Boot med DI.
-Java base package er org.curiosity.
-Fokus nå er backend, API og database.
+- Backend uses **Spring Boot** with dependency injection
+- Java base package is **`org.curiosity`**
+- Focus is **backend, API, and database**
+- DTO / intermediary models must be used between API and database
+- Health ping endpoint is **`/health/ping`**
+- Template files exist under:
+    - `docs/templates/markdown`
+    - `docs/templates/json`
 
-Container-build skal alltid vise build- og test-output.
-Ikke skjul Maven-output i container-build.
-Ping-endpoint er /health/ping.
-Health skal senere være mer enn bare enkel OK.
-Bruk DTO/mellomlag mellom API og database.
+The current template set is:
+
+- `entity-template`
+- `classification-template`
+- `claim-template`
+- `finding-template`
+- `source-template`
+
+## What is proposed here
+
+This section describes how the five template types are linked together using **UUID-based references**.
+
+This is a **model proposal for the data structure**, not a statement that all of this is already implemented in code.
+
+---
+
+## Why UUIDs are needed
+
+Each main record should have its own unique UUID.
+
+Example:
+
+- Entity has its own UUID
+- Classification has its own UUID
+- Claim has its own UUID
+- Finding has its own UUID
+- Source has its own UUID
+
+These UUIDs make it possible to connect records without ambiguity.
+
+---
+
+## Main principle
+
+Each record has its own identity.
+
+Records are connected by storing the UUID of another record.
+
+Examples:
+
+- `Classification.entityId` points to `Entity.id`
+- `Claim.entityId` points to `Entity.id`
+- `Finding.entityId` points to `Entity.id`
+- `Claim.sourceIds` points to one or more `Source.id`
+- `Claim.supportingFindingIds` points to one or more `Finding.id`
+
+---
+
+## Tree view
+
+```text
+Entity (E1: Camelops hesternus)
+├── Classification (CL1)
+│   └── entityId = E1
+├── Claim (C1)
+│   ├── entityId = E1
+│   ├── sourceIds = [S1]
+│   └── supportingFindingIds = [F1]
+├── Finding (F1)
+│   ├── entityId = E1
+│   └── sourceIds = [S2]
+├── Source (S1)
+└── Source (S2)
