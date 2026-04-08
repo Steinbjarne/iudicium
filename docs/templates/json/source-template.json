@@ -1,0 +1,33 @@
+{
+  "sourceId": "uuid",
+  "sourceIdentity": {
+    "sourceType": "",
+    "title": "",
+    "authorsOrCreators": [],
+    "year": "",
+    "publisherOrInstitution": "",
+    "language": "",
+    "urlOrDoiOrIdentifier": ""
+  },
+  "bibliographicDetails": {
+    "journalOrBookOrDatabase": "",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "edition": "",
+    "citation": ""
+  },
+  "accessAndProvenance": {
+    "accessDate": "",
+    "archiveOrRepository": "",
+    "rightsOrLicense": "",
+    "notes": ""
+  },
+  "relevanceAndQuality": {
+    "relatedEntityIds": [],
+    "relatedClaimIds": [],
+    "relatedFindingIds": [],
+    "sourceRole": "",
+    "reliabilityNotes": ""
+  }
+}

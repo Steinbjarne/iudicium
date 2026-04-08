@@ -1,0 +1,29 @@
+{
+  "claimId": "uuid",
+  "entityId": "uuid",
+  "claim": {
+    "statement": "",
+    "claimType": "",
+    "subject": "",
+    "predicate": "",
+    "value": ""
+  },
+  "epistemicStatus": {
+    "status": "",
+    "confidence": "",
+    "basis": "",
+    "testability": ""
+  },
+  "evidence": {
+    "supportingObservations": [],
+    "supportingFindingIds": [],
+    "supportingSourceIds": [],
+    "contradictingSourceIds": [],
+    "notes": ""
+  },
+  "scope": {
+    "appliesTo": "",
+    "context": "",
+    "timeRelevance": ""
+  }
+}

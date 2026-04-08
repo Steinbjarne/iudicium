@@ -1,0 +1,45 @@
+{
+  "findingId": "uuid",
+  "entityId": "uuid",
+  "recordIdentity": {
+    "recordType": "",
+    "status": ""
+  },
+  "whatWasFoundOrObserved": {
+    "materialOrObject": "",
+    "description": "",
+    "quantity": "",
+    "condition": "",
+    "identificationConfidence": ""
+  },
+  "location": {
+    "placeName": "",
+    "coordinates": "",
+    "region": "",
+    "country": "",
+    "siteCaveFormation": "",
+    "contextOrLayer": ""
+  },
+  "time": {
+    "findDate": "",
+    "observationDate": "",
+    "excavationDate": "",
+    "geologicalOrArchaeologicalAge": "",
+    "notes": ""
+  },
+  "provenance": {
+    "collectorOrDiscoverer": "",
+    "institution": "",
+    "museumOrArchiveId": "",
+    "currentRepository": ""
+  },
+  "evidenceRole": {
+    "supportsClaimIds": [],
+    "evidenceStrength": "",
+    "notes": ""
+  },
+  "sources": {
+    "primarySourceIds": [],
+    "secondarySourceIds": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "classificationId": "uuid",
+  "entityId": "uuid",
+  "classificationMetadata": {
+    "classificationName": "",
+    "classificationType": "",
+    "system": "",
+    "sourceIds": [],
+    "status": "",
+    "validFrom": "",
+    "validTo": "",
+    "notes": ""
+  },
+  "levels": [
+    {
+      "levelName": "",
+      "value": "",
+      "rankType": "",
+      "notes": ""
+    },
+    {
+      "levelName": "",
+      "value": "",
+      "rankType": "",
+      "notes": ""
+    }
+  ]
+}

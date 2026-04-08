@@ -1,0 +1,36 @@
+{
+  "entityId": "uuid",
+  "identity": {
+    "canonicalName": "",
+    "displayName": "",
+    "alternativeNames": [],
+    "domain": "",
+    "primaryKind": "",
+    "secondaryKind": "",
+    "existenceStatus": "",
+    "summary": ""
+  },
+  "coreClassification": {
+    "whatIsIt": "",
+    "broadCategory": "",
+    "specificCategory": "",
+    "scientificFields": []
+  },
+  "domainSpecificProfiles": {
+    "biologyProfile": {},
+    "geologyProfile": {},
+    "astronomyProfile": {},
+    "geographyProfile": {},
+    "archaeologyProfile": {}
+  },
+  "sourceBasis": {
+    "primarySourceIds": [],
+    "secondarySourceIds": [],
+    "notes": ""
+  },
+  "linkedRecordIds": {
+    "classificationIds": [],
+    "claimIds": [],
+    "findingIds": []
+  }
+}
