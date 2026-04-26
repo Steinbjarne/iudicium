@@ -3,7 +3,9 @@
   "entityId": "uuid",
   "recordIdentity": {
     "recordType": "",
-    "status": ""
+    "status": "",
+    "findingType": "",
+    "domainContext": ""
   },
   "whatWasFoundOrObserved": {
     "materialOrObject": "",
@@ -12,29 +14,55 @@
     "condition": "",
     "identificationConfidence": ""
   },
+  "measurementOrObservation": {
+    "method": "",
+    "instrumentation": "",
+    "measuredProperties": [],
+    "units": "",
+    "resultSummary": "",
+    "uncertainty": "",
+    "repeatability": "",
+    "notes": ""
+  },
+  "experimentOrStudy": {
+    "studyType": "",
+    "protocol": "",
+    "sampleSize": "",
+    "controls": "",
+    "variables": [],
+    "outcomeMeasures": [],
+    "ethicalOrRegulatoryNotes": ""
+  },
   "location": {
     "placeName": "",
     "coordinates": "",
     "region": "",
     "country": "",
     "siteCaveFormation": "",
+    "observatoryLaboratoryOrInstitution": "",
     "contextOrLayer": ""
   },
   "time": {
     "findDate": "",
     "observationDate": "",
+    "experimentDate": "",
     "excavationDate": "",
+    "clinicalStudyPeriod": "",
     "geologicalOrArchaeologicalAge": "",
+    "astronomicalEpoch": "",
     "notes": ""
   },
   "provenance": {
     "collectorOrDiscoverer": "",
+    "observerOrResearcher": "",
     "institution": "",
     "museumOrArchiveId": "",
+    "datasetOrTrialId": "",
     "currentRepository": ""
   },
   "evidenceRole": {
     "supportsClaimIds": [],
+    "contradictsClaimIds": [],
     "evidenceStrength": "",
     "notes": ""
   },

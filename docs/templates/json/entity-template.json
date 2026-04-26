@@ -14,14 +14,31 @@
     "whatIsIt": "",
     "broadCategory": "",
     "specificCategory": "",
-    "scientificFields": []
+    "scientificFields": [],
+    "objectFields": [],
+    "notes": ""
   },
   "domainSpecificProfiles": {
-    "biologyProfile": {},
-    "geologyProfile": {},
-    "astronomyProfile": {},
-    "geographyProfile": {},
-    "archaeologyProfile": {}
+    "profiles": {
+      "biology": {},
+      "geology": {},
+      "astronomy": {},
+      "geography": {},
+      "archaeology": {},
+      "physics": {},
+      "chemistry": {},
+      "medicine": {},
+      "technology": {},
+      "artifact": {},
+      "materials": {},
+      "legal": {},
+      "historical": {}
+    },
+    "extensionPolicy": {
+      "allowAdditionalProfiles": true,
+      "profileKeyFormat": "lowerCamelCase or lowercase domain key",
+      "validationNotes": "Known profile keys may receive stricter validation later. Unknown profile keys should be preserved as raw JSON unless explicitly rejected by service validation."
+    }
   },
   "sourceBasis": {
     "primarySourceIds": [],
