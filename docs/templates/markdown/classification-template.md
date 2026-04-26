@@ -6,7 +6,7 @@
 
 ## Classification metadata
 - Classification name:
-- Classification type:
+- Classification type: taxonomy | ontology | object classification | material classification | chemical classification | medical classification | astronomical classification | technical classification | legal classification | historical classification | other
 - System:
 - Source ID(s):
 - Status:
@@ -24,3 +24,9 @@
     - Value:
     - Rank type:
     - Notes:
+
+## Classification scope
+- Domain context:
+- Applies to profile key(s):
+- Is primary classification:
+- Notes:

@@ -24,5 +24,11 @@
       "rankType": "",
       "notes": ""
     }
-  ]
+  ],
+  "classificationScope": {
+    "domainContext": "",
+    "appliesToProfileKeys": [],
+    "isPrimaryClassification": false,
+    "notes": ""
+  }
 }

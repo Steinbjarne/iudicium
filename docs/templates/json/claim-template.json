@@ -12,18 +12,22 @@
     "status": "",
     "confidence": "",
     "basis": "",
-    "testability": ""
+    "evidenceLevel": "",
+    "testability": "",
+    "uncertainty": ""
   },
   "evidence": {
     "supportingObservations": [],
     "supportingFindingIds": [],
     "supportingSourceIds": [],
+    "contradictingFindingIds": [],
     "contradictingSourceIds": [],
     "notes": ""
   },
   "scope": {
     "appliesTo": "",
     "context": "",
+    "domainContext": "",
     "timeRelevance": ""
   }
 }

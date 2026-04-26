@@ -4,7 +4,7 @@
 - Source ID (UUID):
 
 ## Source identity
-- Source type:
+- Source type: paper | book | database | dataset | archive record | observatory data | mission data | clinical study | trial registry | technical specification | patent | museum catalogue | legal document | web page | other
 - Title:
 - Authors / creators:
 - Year:
@@ -19,6 +19,15 @@
 - Pages:
 - Edition:
 - Citation:
+
+## Source-specific details
+- Dataset ID:
+- Archive ID:
+- Clinical trial ID:
+- Observatory / mission:
+- Standard / specification:
+- Patent / technical document ID:
+- Catalogue / museum ID:
 
 ## Access and provenance
 - Access date:
